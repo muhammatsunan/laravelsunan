@@ -19,4 +19,5 @@ Route::get('/', function () {
 });
 Route::get('/home0159', [HomeController::class, 'index']);
 Route::get('/artikel0159', [HomeController::class, 'page2']);
+Route::get('/ContacUs0159', [HomeController::class, 'page3']);
 

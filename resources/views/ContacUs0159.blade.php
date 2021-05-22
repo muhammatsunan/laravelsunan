@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home page</title>
+<title>Contac Us</title>
 </head>
 <style>
             ul{
@@ -30,12 +30,33 @@
         </style>
 <body>
 <ul>
-<li><a class="active" href="{{url('/home0159')}}">Home</a></li>
+<li><a href="{{url('/home0159')}}">Home</a></li>
 <li><a href="{{url('/artikel0159')}}">Artikel</a></li>
-<li><a href="{{url('/ContacUs0159')}}">ContacUs</a></li>
-</ul>     
-<body>
-<br><br><br><br><br><br><br><br>
-<p align="center"><h0> Halaman Utama Web</p></h0>
+<li><a class="active" href="{{url('/ContacUs0159')}}">ContacUs</a></li>
+</ul>
+<body> 
+<br><br><br>
+<table border="1" align="center">
+<tr>
+        <td colspan="2" align="center" ><img src="{{ ('C:\daskom\laravelsunan\public\storage\sunan.jpeg') }}" ></td>
+        </tr>
+        <tr>
+            <td>Nama : </td>
+            <td>Muhamat Sun'an</td>
+        </tr>
+        <tr>
+            <td>WA :</td>
+            <td>085335270074</td>
+        </tr>
+    <tr>
+            <td>Email :</td>
+            <td>muhammatsunan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Social Media :</td>
+            <td>Instagram : @muhammatsunan</td>
+        </tr>
+        </table>
+
 </body>
 </html>
