@@ -38,7 +38,7 @@
 <br><br><br>
 <table border="1" align="center">
 <tr>
-        <td colspan="2" align="center" ><img src="{{ ('C:\daskom\laravelsunan\public\storage\sunan.jpeg') }}" ></td>
+        <td colspan="2" align="center" ><img src="sunan.jpeg" width="200px" height="200px"></td>
         </tr>
         <tr>
             <td>Nama : </td>
