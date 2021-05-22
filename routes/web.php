@@ -1,4 +1,5 @@
 <?php
+
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/home0159', [HomeController::class, 'index']);
+Route::get('/artikel0159', [HomeController::class, 'page2']);
+

@@ -7,5 +7,6 @@
 <p>Hello Word</p>
 <p>Hello Word</p>
 <p>Hello Word</p>
+<a href="{{url('/artikel0159')}}">Artikel</a>
 </body>
 </html>
